@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+a,
+header {
+  color: white;
+  background-color: #1f2937;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  padding: 15px;
+
+  /* Remember to remove margin after */
+  margin-bottom: 150px;
+}
+
+.links {
+  display: flex;
+  gap: 15px;
+}
