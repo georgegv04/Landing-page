@@ -10,6 +10,17 @@ body {
   flex-direction: column;
 }
 
+.header-logo {
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+.secondary-hero,
+.header-links {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
 .header-container {
   display: flex;
   justify-content: center;
@@ -42,6 +53,15 @@ button {
   border: none;
   border-radius: 10px;
   padding: 5px 15px;
+}
+
+.sing-up {
+  border: 2px solid white;
+}
+
+.product-signing,
+.action-call {
+  color: white;
 }
 
 img {
@@ -92,10 +112,6 @@ h1 {
   font-weight: 900;
 }
 
-.secondary-hero {
-  font-size: 18px;
-}
-
 .main-container {
   display: flex;
   justify-content: center;
@@ -144,14 +160,12 @@ h1 {
 .boxes {
   display: flex;
   justify-content: space-around;
-  /* flex-wrap: wrap; */
   width: 660px;
   padding: 20px 0;
   gap: 15px;
 }
 
 .quote-container {
-  margin-bottom: 150px;
   height: 225px;
   display: flex;
   background-color: #e5e7eb;
@@ -181,4 +195,21 @@ h1 {
 .author {
   display: flex;
   align-self: flex-end;
+}
+
+.fourth-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  /* border: 3px solid black; */
+}
+
+.fourth {
+  display: flex;
+  flex: 0 1 900px;
+  padding: 30px;
+  justify-content: space-around;
+  border-radius: 5px;
+  background-color: #3882f6;
 }
